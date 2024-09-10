@@ -42,7 +42,7 @@ export class TasksComponent {
       summary: 'Prepare and describe an issue template which will help with project management',
       dueDate: '2025-06-15'
     },
-  ]
+  ];
 
   get selectedUserTasks() {
     return this.tasks.filter((task) => task.userId === this.userId);
